@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Educacion</title>
+  </head>
+  <body>
+     <header>
+    <img src="images/logo.svg" alt="" width="30%">
+       <h1>Curriculum Vitae</h1>
+       <h2>Joel Alvarado Torres</h2>
+       <h3>Lugar y Fecha de Nacimiento: Guayaquil, 11 de enero de 1990</h3>
+     </header>
+
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educacion</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+    <h2>Educaci&oacute;n</h2>
+
+    <table border="1">
+      <thead>
+        <th>Año</th>
+        <th>Institucion</th>
+        <th>Lugar</th>
+        <th>¿Culmino?</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2001</td>
+          <td>Hipolito Camba</td>
+          <td>Daule</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2007</td>
+          <td>Juan Bautista Aguirre</td>
+          <td>Daule</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>Universidad de Guayaquil</td>
+          <td>Guayaquil</td>
+          <td>SI</td>
+        </tr>
+      </tbody>
+    </table>
+
+  <h3>Agregar Estudios</h3>
+
+<form class="" action="index.html" method="post">
+  <label for="slAnio">Año</label>
+  <select name="slAnio" id="slAnio">
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <option value="2024">2024</option>
+    <option value="2025">2025</option>
+    <option value="2026">2026</option>
+  </select>
+  <br/>
+
+  <label for="txtInsti">Institucion</label>
+  <input type="text" name="txtInsti" value="" required>
+  <br/>
+
+  <label for="txtLug">Lugar</label>
+  <input type="text" name="txtLug" value="" />
+  <br/>
+
+  <label for="chkC">Culmino</label>
+  <input type="radio" name="chkC" value="SI">SI
+ <input type="radio" name="chkC" value="NO">NO
+<br>
+<button type="submit" name="button">Enviar</button>
+</form>
+
+
+<footer>
+Copyright 2017<br/>
+joyalt77@gmail.com<br/>
++593994450758<br/>
+@joel_isaias
+
+</footer>
+
+  </body>
+</html>
